@@ -1,0 +1,92 @@
+*:focus {
+    outline: none;
+}
+
+.wrapper {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    background-image: url(images/bg-header-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-heading {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.main-heading h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.heading-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.ios-btn,
+.mac-btn {
+    width: 90%;
+    height: 40px;
+    color: #fff;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: none;
+}
+
+.ios-btn {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* --- Snippets Sections --- */
+
+.snippets {
+    text-align: center;
+}
+
+.snippets h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.computer-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.cloud-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.cloud-item {
+    margin: 10px 0;
+}
