@@ -1,9 +1,18 @@
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(201, 11%, 66%);
+}
+
 *:focus {
     outline: none;
 }
 
+p {
+    line-height: 1.25rem;
+}
+
 .wrapper {
-    width: 90vw;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -24,7 +33,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 90%;
 }
 
 .logo {
@@ -35,6 +44,9 @@
     font-size: 2rem;
     margin-bottom: 20px;
     width: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
 }
 
 .heading-buttons {
@@ -53,6 +65,8 @@
     margin: 10px auto;
     border-radius: 20px;
     border: none;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .ios-btn {
@@ -72,6 +86,10 @@
 .snippets h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    line-height: 1.5rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
 }
 
 .computer-image {
@@ -89,4 +107,200 @@
 
 .cloud-item {
     margin: 10px 0;
+}
+
+.cloud-item h3 {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    line-height: 1.125rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+/* --- END Snippets Sections --- */
+
+/* --- Access Section --- */
+
+.access {
+    text-align: center;
+}
+
+.access h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.device-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* --- END Access Section --- */
+
+/* --- Workflow Section --- */
+
+.workflow {
+    text-align: center;
+}
+
+.workflow h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.workflow-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.workflow-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.workflow-item h3 {
+    font-size: 1.125rem;
+    margin: 10px 0;
+    line-height: 1.125rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+/* --- END Workflow Section --- */
+
+/* --- Company Section --- */
+
+.company-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 30px auto ;
+    
+}
+
+.company-logo {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+/* --- END Company Section --- */
+
+/* --- Download Section --- */
+
+.iOS-Mac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.iOS-Mac h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+/* --- END Download Section --- */
+
+/* --- Footer Section --- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: hsl(201, 11%, 66%);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    height: 4rem;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    margin: 5px 0;
+    color: hsl(210, 10%, 33%);
+}
+
+.footer a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.footer-social-icons {
+    margin: 20px 0;
+}
+
+.footer-social-icons i {
+    margin: 0 5px;
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.footer-social-icons i:hover {
+   color: hsl(171, 66%, 44%);
+}
+
+@media only screen and (min-width: 800px) {
+
+.wrapper {
+    width: 80%;
+}
+
+.hero-image {
+    background-image: url(images/bg-header-desktop.png);
+}
+
+.heading-buttons {
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.heading-buttons button {
+    margin: 0 5px;
+}
+
+.outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.computer-image {
+    float: left;
+    
+    width: 80%;
+    height: auto;
+    
+}
+
+.cloud-details {
+    float: right;
+}
+
+
 }
